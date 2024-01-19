@@ -8,3 +8,7 @@ edition = "2021"
 [dependencies]
 tokio = { version = "*", features = ["full"] }
 bpaf = { version = "*", features = ["derive", "bright-color"] }
+
+[profile.release-lto]
+inherits = "release"
+lto = true
