@@ -4,7 +4,7 @@ A simple CLI tool written in Rust that checks network ports for one of three pos
 
 ## Usage
 
-The script provides three CLI arguments that are to be specified during execution. To view the arguments, run ` cargo run -- -help`, which prompts the following:
+The script provides three CLI arguments that are to be specified during execution. To view the arguments, run `cargo run -- -help`, which prompts the following:
 
 ```bash
 Usage: rsniffer [-a=ARG] [-s=ARG] [-e=ARG]
